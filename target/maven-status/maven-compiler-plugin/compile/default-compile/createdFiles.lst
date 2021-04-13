@@ -1,0 +1,13 @@
+external\client\NbpRate.class
+external\client\LocalDateAdapter.class
+service\ExchangeRateService.class
+external\entity\TransactionLog.class
+external\client\NbpTable.class
+external\dao\CurrencyAccountDao.class
+Main.class
+external\connection\HibernateUtil.class
+external\entity\CurrencyAccount.class
+external\dao\ExchangeRateDao.class
+external\client\NbpApiClient.class
+external\dao\TransactionLogDao.class
+external\entity\ExchangeRate.class

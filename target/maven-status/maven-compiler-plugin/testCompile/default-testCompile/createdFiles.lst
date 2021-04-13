@@ -1,0 +1,5 @@
+external\dao\TransactionLogDaoTest.class
+external\dao\CurrencyAccountDaoTest.class
+external\dao\ExchangeRateDaoTest$1.class
+external\dao\ExchangeRateDaoTest.class
+external\client\NbpApiClientTest.class
