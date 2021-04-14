@@ -163,18 +163,7 @@ class UserAccountService {
     }
 
     private void deleteAll(){
-       /* CurrencyAccountDao currencyAccountDao = new CurrencyAccountDao();
-        TransactionLogDao transactionLogDao = new TransactionLogDao();
-
-        for (CurrencyAccount currencyAccount : userAccount.getCurrencyAccounts()) {
-            if(currencyAccount.getTransactionLogs().size() > 0){
-                transactionLogDao.deleteAll(currencyAccount.getTransactionLogs());
-            }
-            currencyAccountDao.delete(currencyAccount);
-        }*/
-        //User user = userAccount.getUser();
         new UserAccountDao().delete(userAccount);
-       // new UserDao().delete(user);
     }
 
 }
